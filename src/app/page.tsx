@@ -4,6 +4,7 @@ import { Philosophy } from "@/components/Philosophy";
 import { Process } from "@/components/Process";
 import { Target } from "@/components/Target";
 import { CTA } from "@/components/CTA";
+import { Story } from "@/components/Story";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Process />
         <Target />
         <CTA />
+        <Story />
       </main>
       <Footer />
     </div>
